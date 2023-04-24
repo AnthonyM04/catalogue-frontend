@@ -36,6 +36,18 @@
 /* -=-=-=- HEADER.JSX -=-=-=-=- */
 .header-component{
   background-color: red;
-  position: sticky;
-  top: 10px;
+  padding-left: 500px;
+  padding-right: 500px;
+  border-bottom: #282c34 solid 3px;
+  position: fixed;
+  top: 0px;
+}
+
+/* -=-=-=- FOOTER.JSX -=-=-=-=- */
+.footer-component{
+  background-color: red;
+  padding-left: 500px;
+  padding-right: 500px;
+  position: fixed;
+  bottom: 0px;
 }
